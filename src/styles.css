@@ -346,7 +346,7 @@ footer {
 			display: flex;
 			flex-flow: column nowrap;
 			justify-content: center;
-			align-items: stretch;
+			align-items: center;
 			margin: 10px auto;
 			padding: 0px 10px;
 		}
