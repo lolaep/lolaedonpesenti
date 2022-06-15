@@ -349,6 +349,7 @@ footer {
 			align-items: center;
 			margin: 10px auto;
 			padding: 0px 10px;
+			text-align: center;
 		}
 		
 		.flex-experience > .flex-column:nth-child(1){
