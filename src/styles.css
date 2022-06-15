@@ -246,3 +246,104 @@ footer {
 	flex: 1 1 80%;
 	text-align: left;
 }
+
+/* écran téléphone */
+
+@media only screen 
+	and (max-width: 980px) {
+		html {
+			font-size: 0.8em;
+		}
+
+		a {
+			font-size: 1rem;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
+
+		h2 {
+			font-size: 1.2rem;
+			padding: 15px 0px 15px 0px;
+			margin: 15px 10% 0px 10%;
+		}
+
+		h3 {
+			font-size: 1rem;
+		}
+
+		header {
+			width: 95%;
+			box-shadow: 0px 0px 10px #333;
+			margin: auto;
+		}
+
+		nav {
+			width: 95%;
+			margin: auto;
+		}
+
+		main {	
+			width: 95%;
+			margin: auto;
+		}
+
+		section {
+			width: 95%;
+			margin: auto;
+		}
+
+		footer {
+			width: 95%;
+			margin: auto;
+		}
+
+		#presentation {
+			width: 90%;
+			margin: 5px auto;
+			padding: 15px;
+		}
+
+	/* bloc qualités*/
+
+		#qualites {	
+			padding-top: 10px;
+		}
+		#qualites p {
+			margin: 10px auto;
+			padding: 10px 10px;
+		}
+
+	/* images compétences*/
+
+		.flex-competences {
+		margin: 10px ;
+		padding: 10px;
+	}
+
+/* FORMATION */
+	/* l'espace est divisé en deux pour obtenir deux colonnes */
+		.flex-formation {
+			width: 95%;
+			margin: 10px auto;
+			padding: 0px 10px;
+		}
+
+	/* colonne de droite */
+
+		.barreforme {
+			margin: 20px auto 20px auto;
+			width: 3px;
+			padding-top: 5px;
+			border-radius: 10px;
+		}
+
+/* EXPERIENCES */
+
+		.flex-experience {
+			width: 95%;
+			margin: 10px auto;
+			padding: 0px 10px;
+		}
+}
